@@ -6,7 +6,7 @@ import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 function App() {
   return (
     <>
-      <div className="bg-white p-10 w-1/3 mx-auto my-10 rounded-md">
+      <div className="bg-white p-10 w-1/3 mx-auto my-9 rounded-md">
         <div className='text-center text-2xl'>
           <FontAwesomeIcon icon={faTwitter} style={{ color: '#33beff' }} />
         </div>
@@ -54,6 +54,11 @@ function App() {
         <div className='flex justify-center'>
           <button className='border border-gray-400 p-3 w-80 rounded-2xl
           font-semibold'>Forgot Password</button>
+        </div>
+        <br />
+        <div>
+          <p className='text-center text-gray-500'>Dont't Have An Account 
+            <span className='text-blue-700'> Sign Up</span></p>
         </div>
       </div>
     </>
