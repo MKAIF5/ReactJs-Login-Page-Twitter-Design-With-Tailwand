@@ -57,7 +57,7 @@ function App() {
         </div>
         <br />
         <div>
-          <p className='text-center text-gray-500'>Dont't Have An Account 
+          <p className='text-center text-gray-500'>Dont't Have An Account
             <span className='text-blue-700'> Sign Up</span></p>
         </div>
       </div>
